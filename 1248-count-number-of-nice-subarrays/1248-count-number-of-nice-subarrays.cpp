@@ -1,7 +1,7 @@
 class Solution {
 public:
-    int findSubarrays(vector<int>& nums, int k){
-        int low = 0, high = 0, count = 0, result = 0, size = nums.size();
+    int findSubarrays(vector<int>& nums, int k, int size){
+        int low = 0, high = 0, count = 0, result = 0;
         while(high < size){
             count += nums[high];
             while(count > k){
@@ -20,6 +20,6 @@ public:
             if(nums[i] % 2 == 0) integers[i] = 0;
             else integers[i] = 1;
         }
-        return findSubarrays(integers, k) - findSubarrays(integers, k - 1);
+        return findSubarrays(integers, k, size) - findSubarrays(integers, k - 1, size);
     }
 };
