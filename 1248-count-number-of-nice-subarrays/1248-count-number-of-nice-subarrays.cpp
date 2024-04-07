@@ -1,11 +1,11 @@
 class Solution {
 public:
-    int findSubarrays(vector<int>& nums, int k, int size){
-        int low = 0, high = 0, count = 0, result = 0;
+    int findNiceSubarrays(vector<int>& nums, int k){
+        int low = 0, high = 0, count = 0, result = 0, size = nums.size();;
         while(high < size){
-            count += nums[high];
+            count += nums[high] % 2;
             while(count > k){
-                count -= nums[low];
+                count -= nums[low] % 2;
                 low++;
             }
             result += high - low + 1;
@@ -14,12 +14,6 @@ public:
         return result;
     }
     int numberOfSubarrays(vector<int>& nums, int k) {
-        int size = nums.size();
-        vector<int> integers(size);
-        for(int i = 0; i < size; i++){
-            if(nums[i] % 2 == 0) integers[i] = 0;
-            else integers[i] = 1;
-        }
-        return findSubarrays(integers, k, size) - findSubarrays(integers, k - 1, size);
+        return findNiceSubarrays(nums, k) - findNiceSubarrays(nums, k - 1);
     }
 };
