@@ -6,14 +6,15 @@ public:
         vector<int> letterCount(128,0);
         for(char c : t) letterCount[c]++;
         while(high < m){
-            if(letterCount[s[high++]]-- > 0) counter--;
+            if(letterCount[s[high]]-- > 0) counter--;
             while(counter == 0){
-                if(high - low < sizeOfWindow){
-                    sizeOfWindow = high - low;
+                if(high - low + 1 < sizeOfWindow){
+                    sizeOfWindow = high - low + 1;
                     head = low;
                 }
                 if(letterCount[s[low++]]++ == 0) counter++;
             }
+            high++;
         }
         return (head == -1? "" : s.substr(head,sizeOfWindow));
     }
