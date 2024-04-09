@@ -1,24 +1,20 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        int n = t.size(), m = s.size(), counter = 0, head = -1, resultSize = INT_MAX;
-        int low = 0, high = 0;
-        vector<int> letterCount(256,0);
-        for(char c:t) letterCount[c]++;
+        int low = 0, high = 0, head = -1, sizeOfWindow = INT_MAX, counter = t.size();
+        int n = t.size(), m = s.size();
+        vector<int> letterCount(128,0);
+        for(char c : t) letterCount[c]++;
         while(high < m){
-            if(letterCount[s[high]] > 0) counter++;
-            letterCount[s[high]]--;
-            while(counter == n){
-                if(high - low + 1 < resultSize){
-                    resultSize = high - low + 1;
+            if(letterCount[s[high++]]-- > 0) counter--;
+            while(counter == 0){
+                if(high - low < sizeOfWindow){
+                    sizeOfWindow = high - low;
                     head = low;
                 }
-                if(letterCount[s[low]] == 0) counter--;
-                letterCount[s[low]]++;
-                low++;
+                if(letterCount[s[low++]]++ == 0) counter++;
             }
-            high++;
         }
-        return (head == -1? "" : s.substr(head,resultSize));
+        return (head == -1? "" : s.substr(head,sizeOfWindow));
     }
 };
