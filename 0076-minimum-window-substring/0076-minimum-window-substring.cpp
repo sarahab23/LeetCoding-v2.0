@@ -3,7 +3,7 @@ public:
     string minWindow(string s, string t) {
         int n = t.size(), m = s.size(), counter = 0, head = -1, resultSize = INT_MAX;
         int low = 0, high = 0;
-        vector<int> letterCount(256,0);
+        vector<int> letterCount(128,0);
         for(char c:t) letterCount[c]++;
         while(high < m){
             if(letterCount[s[high]] > 0) counter++;
