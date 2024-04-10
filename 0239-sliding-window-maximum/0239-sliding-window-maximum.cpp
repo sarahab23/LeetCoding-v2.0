@@ -5,18 +5,13 @@ public:
         multiset<int> currentWindow;
         vector<int> result;
         while(high < size){
-            if(high - low + 1 < k){
-                currentWindow.insert(nums[high]);
-                high++;  
-            }
-            else{
-                currentWindow.insert(nums[high]);
-                auto maxNum = currentWindow.rbegin();
-                result.push_back(*maxNum);
+            currentWindow.insert(nums[high]);  
+            if(high - low + 1 >= k){
+                result.push_back(*currentWindow.rbegin());
                 currentWindow.erase(currentWindow.find(nums[low]));
                 low++;
-                high++;
             }
+            high++;
         }
         return result;
     }
