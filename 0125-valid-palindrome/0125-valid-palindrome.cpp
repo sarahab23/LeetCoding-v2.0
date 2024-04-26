@@ -3,10 +3,10 @@ public:
     bool isPalindrome(string s) {
         string newString = "";
         for(char c:s){
-            if((c >= 48 && c <= 57) || (c >= 65 && c <= 90) || (c >= 97 && c <= 122)){
-                if(c >= 65 && c <= 90) newString += c + 32;
-                else newString += tolower(c);
-            }
+            if((c >= '0' && c <= '9') || (c >= 'a' && c <= 'z'))
+                newString += c;
+            else if(c >= 'A' && c <= 'Z')
+                newString += c - 'A' + 'a';
         }
         int size = newString.size();
         bool result = true;
