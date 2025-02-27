@@ -1,12 +1,12 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        ans = []
-        storeNums = {}
+        prevNums = {} # value: index
 
         for i in range(len(nums)):
-            pairNum = target - nums[i]
-            if pairNum in storeNums:
-                ans = [i, storeNums[pairNum]]
-                return ans
+            diff = target - nums[i]
+            if diff in prevNums:
+                return [i, prevNums[diff]]
             else:
-                storeNums[nums[i]] = i
+                prevNums[nums[i]] = i
+
+        return # for no reason
