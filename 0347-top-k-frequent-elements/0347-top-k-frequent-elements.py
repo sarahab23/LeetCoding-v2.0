@@ -1,16 +1,19 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        res = []
-        prevNums = defaultdict(int) # gives all keys(exist/non exist) values 0 
+        res,length = [], len(nums)
+        bucket = [[] for i in range(length + 1)]
+        numCount = defaultdict(int)
 
         for n in nums:
-            prevNums[n] += 1
+            numCount[n] += 1 # numCount[n] = numCount.get(n,0) + 1
+
+        for key,val in numCount.items():
+            bucket[val] += [key]
         
-        sortedPrevN = sorted(prevNums.items(), key = lambda x: x[1], reverse = True)
-        # sorting dict values in desc - prevNums.items() - [(),(),()] - list of tuples
-        # key = lambda x: x[1] -> says for each items, sort by item[1] - so value
+        for i in range(length, 0, -1):
+            for j in bucket[i]:
+                res.append(j)
+                if len(res) == k:
+                    return res
 
-        for i in range(k):
-            res.append(sortedPrevN[i][0])
-
-        return res
+        return
