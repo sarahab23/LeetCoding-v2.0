@@ -1,16 +1,13 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        count = 0
-        ans = []
-        prevWords = {}
+        res = defaultdict(list) # mapping tuple letter count of words to list of anagrams
 
         for word in strs:
-            sortedW = ''.join(sorted(word))
-            if sortedW in prevWords:
-                ans[prevWords[sortedW]].append(word)
-            else:
-                ans.append([word])
-                prevWords[sortedW] = count
-                count = count + 1
-        
-        return ans
+            counter = [0] * 26
+
+            for ch in word:
+                counter[ord(ch) - ord('a')] += 1
+            
+            res[tuple(counter)].append(word)
+
+        return list(res.values())
