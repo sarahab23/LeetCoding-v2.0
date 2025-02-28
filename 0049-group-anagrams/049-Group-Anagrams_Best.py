@@ -11,3 +11,5 @@ class Solution:
             res[tuple(counter)].append(word)
 
         return list(res.values())
+# If I did  res = {}
+# then - res[tuple(counter)] = res.get(tuple(counter), []) + [word]
