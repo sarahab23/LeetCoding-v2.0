@@ -1,8 +1,8 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        rows = defaultdict(set) # store all elts with rows in common
-        cols = defaultdict(set) # store all elts with columns in common
-        squares = defaultdict(set) # store all elts with squares in common
+        rows = defaultdict(set) # store all elts with rows in common => row no.(n) -> set
+        cols = defaultdict(set) # store all elts with columns in common => column no.(n) -> set
+        squares = defaultdict(set) # store all elts with squares in common => square row & col no.(n,m)[tuple] -> set
         # or collections.defaultdict(set)
 
         # when going through each posn, we check what's common for all elts belonging to a row
