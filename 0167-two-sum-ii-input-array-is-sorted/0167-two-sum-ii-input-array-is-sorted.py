@@ -10,4 +10,4 @@ class Solution:
             else:
                 return [l + 1, r + 1]
 
-        return
+        return []
