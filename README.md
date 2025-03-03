@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0049-group-anagrams) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0217-contains-duplicate) |
@@ -87,4 +88,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0011-container-with-most-water) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
