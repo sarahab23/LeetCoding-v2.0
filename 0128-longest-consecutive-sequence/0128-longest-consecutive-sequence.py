@@ -5,9 +5,7 @@ class Solution:
         uniqueNums = set(nums)
 
         for num in uniqueNums:
-            if num - 1 in uniqueNums:
-                continue
-            else: 
+            if num - 1 not in uniqueNums:
                 seq[num].append(num)
                 curr = num + 1
                 while curr in uniqueNums:
