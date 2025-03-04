@@ -10,30 +10,22 @@ class Solution:
             permut[ord(s2[i]) - ord('a')] += 1
         
         for i in range(26):
-            if countS1[i] == permut[i]:
-                match += 1
-        
-        if match == 26: return True
+            match += (1 if countS1[i] == permut[i] else 0)
+
 
         while r < len(s2):
+            if match == 26: return True
 
-            if countS1[ord(s2[r]) - ord('a')] == permut[ord(s2[r]) - ord('a')]:
-                permut[ord(s2[r]) - ord('a')] += 1
-                match -= 1
-            else:
-                permut[ord(s2[r]) - ord('a')] += 1
-                if countS1[ord(s2[r]) - ord('a')] == permut[ord(s2[r]) - ord('a')]: match += 1
-
+            indexR = ord(s2[r]) - ord('a')
+            permut[indexR] += 1
+            if countS1[indexR] == permut[indexR]: match += 1
+            elif countS1[indexR] + 1 == permut[indexR]: match -= 1
             r += 1
 
-            if countS1[ord(s2[l]) - ord('a')] == permut[ord(s2[l]) - ord('a')]:
-                permut[ord(s2[l]) - ord('a')] -= 1
-                match -= 1
-            else:
-                permut[ord(s2[l]) - ord('a')] -= 1    
-                if countS1[ord(s2[l]) - ord('a')] == permut[ord(s2[l]) - ord('a')]: match += 1
-            
+            indexL = ord(s2[l]) - ord('a')
+            permut[indexL] -= 1
+            if countS1[indexL] == permut[indexL]: match += 1
+            elif countS1[indexL] == permut[indexL] + 1: match -= 1             
             l += 1
-            if match == 26: return True
         
-        return False
+        return match == 26
