@@ -114,8 +114,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0042-trapping-rain-water) |
+| [0155-min-stack](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0155-min-stack) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0042-trapping-rain-water) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
