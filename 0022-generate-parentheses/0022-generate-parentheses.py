@@ -1,5 +1,9 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
+        # Rules for backtracking here - 
+        # only add "(" -> if open brackets < n
+        # only add ")" -> if closed brackets < open brackets
+        # string is valid IIF open brackets = closed brackets = n
         res = []
         stack = []
 
