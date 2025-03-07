@@ -4,8 +4,8 @@ class Solution:
         prevTime = 0 # storing slow prev car's time
         pairs = zip(position, speed) # pairs are iterators of tuples 
 
-        for p,s in sorted(pairs)[::-1]:
-            time = (target - p)/s
+        for p,s in sorted(pairs)[::-1]: # sort pairs based on descending order of position
+            time = (target - p)/s       # or sorted(pairs, reverse = True)
             if time > prevTime: 
                 res += 1
                 prevTime = time
