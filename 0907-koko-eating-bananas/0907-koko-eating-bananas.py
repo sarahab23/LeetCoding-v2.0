@@ -1,6 +1,5 @@
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
-       res = float('inf') # min not needed
        maxK = 0
        for n in piles: maxK = max(maxK, n)
 
@@ -15,7 +14,7 @@ class Solution:
         
             if hTaken > h: low = k + 1
             else:
-                res = min(res, k)
+                res = k
                 high = k - 1
 
        return res
