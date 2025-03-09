@@ -12,7 +12,7 @@ class Solution:
         
             if hours > h: low = k + 1
             else:
-                res = k
+                res = min(res, k) # (OR) min(res,k) not necessary. res = k is also correct
                 high = k - 1
 
         return res
