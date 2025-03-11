@@ -5,6 +5,8 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        # T O(n) M O(n) - memory is linear operation because it's recursion, it takes n recursive
+        # calls
         if not head: return head
         newHead = head
 
