@@ -167,4 +167,12 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0239-sliding-window-maximum) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
