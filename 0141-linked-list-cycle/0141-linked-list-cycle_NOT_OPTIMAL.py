@@ -6,6 +6,7 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
+        # T O(n) M O(n)
         seen = set()
         curr = head
         while curr:
