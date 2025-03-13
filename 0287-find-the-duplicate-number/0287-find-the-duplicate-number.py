@@ -7,12 +7,10 @@ class Solution:
             if slow == fast:
                 break
         
-        meet = fast
-        slow = 0
+        slow2 = 0
         while True:
+            slow2 = nums[slow2]
             slow = nums[slow]
-            meet = nums[meet]
-            if slow == meet:
-                break
+            if slow2 == slow:
+                return slow
         
-        return meet
