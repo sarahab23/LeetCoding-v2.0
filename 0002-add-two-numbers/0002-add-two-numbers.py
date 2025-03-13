@@ -5,7 +5,7 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        head = ListNode(0)
+        head = ListNode()
         prev, carry = head, 0
         while l1 and l2:
             summ = l1.val + l2.val + carry
