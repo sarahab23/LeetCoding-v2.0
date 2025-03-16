@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 | [0128-longest-consecutive-sequence](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0347-top-k-frequent-elements) |
@@ -159,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0155-min-stack) |
 ## Math
 |  |
@@ -186,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 | [0138-copy-list-with-random-pointer](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
@@ -214,4 +217,8 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0226-invert-binary-tree) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
