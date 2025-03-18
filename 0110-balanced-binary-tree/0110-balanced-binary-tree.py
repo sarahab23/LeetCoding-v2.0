@@ -10,7 +10,7 @@ class Solution:
             if not root: return 0
             left = getDepth(root.left) if root.left else 0
             right = getDepth(root.right) if root.right else 0
-            if abs(right - left) > 1 or left == -1 or right == -1:
+            if left == -1 or right == -1 or abs(right - left) > 1:
                 return -1
             return 1 + max(left, right)
         
