@@ -8,8 +8,7 @@ class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         def getDepth(root):
             if not root: return 0
-            left = getDepth(root.left) if root.left else 0
-            right = getDepth(root.right) if root.right else 0
+            left, right = getDepth(root.left), getDepth(root.right)
             if left == -1 or right == -1 or abs(right - left) > 1:
                 return -1
             return 1 + max(left, right)
