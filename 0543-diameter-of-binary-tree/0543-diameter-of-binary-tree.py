@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+        # TC = O(n) SC = O(logn) -> Space complexity will be the recursion depth, which is at most the height (h) of the tree. Balanced Tre = logN & Skewed Tree = N
         res = 0
 
         def getDepth(root):
