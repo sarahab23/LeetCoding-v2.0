@@ -209,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 | [0110-balanced-binary-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0572-subtree-of-another-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -217,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 | [0110-balanced-binary-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0572-subtree-of-another-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -231,8 +233,17 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 | [0110-balanced-binary-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0572-subtree-of-another-tree) |
 ## Doubly-Linked List
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0146-lru-cache) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
