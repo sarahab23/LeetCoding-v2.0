@@ -12,6 +12,7 @@ class Solution:
         else: return False
 
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
+        if not subRoot: return True # not required
         if not root: return False
         if root.val == subRoot.val:
             if self.isSameTree(root, subRoot): return True
