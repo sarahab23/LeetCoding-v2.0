@@ -7,7 +7,7 @@
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         res = 0
-        if not root: return res
+        if not root: return res # not necessary
         def dfs(curr, maxV):
             nonlocal res
             if curr.val >= maxV:
