@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+        # TC = O(N) | SC = O(N)
         if not root: return []
         res = []
         def dfs(curr, depth):
