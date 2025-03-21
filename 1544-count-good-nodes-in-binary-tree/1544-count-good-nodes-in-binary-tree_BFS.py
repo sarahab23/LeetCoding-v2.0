@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
+        # TC = O(N) | SC = O(N)
         if not root: return 0
         res = 1
         q = collections.deque([(root, root.val)])
