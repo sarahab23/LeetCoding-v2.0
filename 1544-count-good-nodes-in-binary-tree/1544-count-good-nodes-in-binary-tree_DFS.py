@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
+        # TC = O(N) | SC = O(N)
         res = 0
         if not root: return res # not necessary
         def dfs(curr, maxV):
