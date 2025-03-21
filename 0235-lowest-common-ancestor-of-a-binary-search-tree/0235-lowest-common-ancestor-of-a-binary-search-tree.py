@@ -7,6 +7,7 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        #TC = O(logN) -> it travels through only 1 node in each level | SC = O(1)
         curr = root
 
         while curr:
