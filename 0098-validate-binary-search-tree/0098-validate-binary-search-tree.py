@@ -12,5 +12,4 @@ class Solution:
         else: return False
 
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        minVal, maxVal = -float('inf'), float('inf')
-        return self.checkValid(root, minVal, maxVal)
+        return self.checkValid(root, -float('inf'), float('inf'))
