@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     def dfs(self, curr):
+        # TC = O(N) | SC = O(N)
         if curr.left: self.dfs(curr.left)
         self.li.append(curr.val)
         if curr.right: self.dfs(curr.right)
