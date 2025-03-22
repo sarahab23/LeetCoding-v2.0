@@ -5,11 +5,17 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def dfs(self, curr):
-        if curr.left: self.dfs(curr.left)
-        self.li.append(curr.val)
-        if curr.right: self.dfs(curr.right)
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
-        self.li = []
-        self.dfs(root)
-        return self.li[k-1]
+        count = k
+        def findK(curr):
+            nonlocal count
+            if curr.left:
+                res = findK(curr.left)
+                if res != None: return res
+            count -= 1
+            if count == 0: return curr.val
+            if curr.right:
+                res = findK(curr.right)
+                if res != None: return res
+
+        return findK(root)
