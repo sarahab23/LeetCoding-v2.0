@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+        # TC = O(N) | SC = O(1)
         count = k
         def findK(curr):
             nonlocal count
