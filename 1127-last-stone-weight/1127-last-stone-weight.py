@@ -1,5 +1,6 @@
 import heapq
 class Solution:
+    # TC of Heapify = O(N) + O(NlogN) = O(NlogN)
     def lastStoneWeight(self, stones: List[int]) -> int:
         maxHeap = [-stone for stone in stones]
         heapq.heapify(maxHeap)
