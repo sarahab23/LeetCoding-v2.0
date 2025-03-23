@@ -1,6 +1,7 @@
 import heapq
 class KthLargest:
-
+    # Current method, we're using heap. [Adding N elts + Popping N - k elts] Constructor TC = O(NlogN) + O(N - k)(logN)
+    # Add() - TC = O(logN)
     def __init__(self, k: int, nums: List[int]):
         heapq.heapify(nums)
         while len(nums) > k:
