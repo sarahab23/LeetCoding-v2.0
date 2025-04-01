@@ -2,8 +2,8 @@ class Twitter:
 
     def __init__(self):
         self.time = 0
-        self.userFollowee = defaultdict(set) # user id -> set
-        self.userPosts = defaultdict(list) # user id -> [[time, post id], ...,...]
+        self.userFollowee = defaultdict(set) # user id -> set of followeeId
+        self.userPosts = defaultdict(list) # user id -> list of [time, post id]
 
     def postTweet(self, userId: int, tweetId: int) -> None:
         self.userPosts[userId].append([-self.time, tweetId])
@@ -11,10 +11,9 @@ class Twitter:
 
     def getNewsFeed(self, userId: int) -> List[int]:
         res = []
-        followees = list(self.userFollowee[userId])
-        allPosts = [post for f in followees for post in self.userPosts[f]]
+        allPosts = [post for f in self.userFollowee[userId] for post in self.userPosts[f]] 
         allPosts.extend(self.userPosts[userId])
-        heapq.heapify(allPosts)
+        heapq.heapify(allPosts) # allPosts - min heap
         if len(allPosts) > 10:
             for i in range(10): res.append(heapq.heappop(allPosts)[1])
         else: 
