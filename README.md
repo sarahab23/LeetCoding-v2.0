@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 | [0042-trapping-rain-water](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -195,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0078-subsets) |
 ## Queue
 |  |
 | ------- |
@@ -225,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0287-find-the-duplicate-number) |
 ## Tree
 |  |
