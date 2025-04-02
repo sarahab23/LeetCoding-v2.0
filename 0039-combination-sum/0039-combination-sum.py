@@ -1,30 +1,29 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        length, res = len(candidates), []
-        subset, summ = [], 0
+        length, res, subset, total = len(candidates), [], [], 0
         def dfs(i):
-            if i >= length or i < 0:
-                return
-            nonlocal summ
-            summ += candidates[i]
+            # if i >= length or i < 0:
+            #     return
+            nonlocal total
+            total += candidates[i]
             subset.append(candidates[i])
-            if summ > target:
-                summ -= candidates[i]
+            if total > target:
+                total -= candidates[i]
                 subset.pop()
                 return
-            elif summ == target:
+            elif total == target:
                 if sorted(subset) not in res:
                     res.append(sorted(subset))
-                summ -= candidates[i]
+                total -= candidates[i]
                 subset.pop()
                 return
             else:
-                for j in range(length, -1, -1):
+                for j in range(length - 1, -1, -1):
                     dfs(j)
-                summ -= candidates[i]
+                total -= candidates[i]
                 subset.pop()
         
-        for i in range(length, -1, -1):
+        for i in range(length - 1, -1, -1):
             dfs(i)
         
         return res
