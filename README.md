@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 | [0022-generate-parentheses](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0424-longest-repeating-character-replacement) |
@@ -61,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 | [0049-group-anagrams](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0128-longest-consecutive-sequence) |
@@ -121,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 | ------- |
 | [0036-valid-sudoku](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0079-word-search) |
 ## Union Find
 |  |
 | ------- |
@@ -204,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 | [0040-combination-sum-ii](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0090-subsets-ii) |
 ## Queue
 |  |
@@ -258,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! Leetcode: [sarah_a
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sarahab23/LeetCoding-v2.0/tree/master/0104-maximum-depth-of-binary-tree) |
